@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.ImagenNormal{
+    width: 200px; 
+    height: 200px;
+}
+
+h1{
+    color: #f1ebeb;
+}
+
+header {
+    background-color: #7708e7;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: rgb(229, 220, 220);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #b40303;
+}
+
+p, div {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilos adicionales para los botones */
+#style1 {
+    background-color: #e6b803;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#style2 {
+    background-color: #05f368;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#style3 {
+    background-color: #eb1d06;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Tamaños de imagen */
+.small-img {
+    width: 200px;
+    height: auto;
+}
+
+.medium-img {
+    width: 400px;
+    height: auto;
+}
+
+.large-img {
+    width: 600px;
+    height: auto;
+}
